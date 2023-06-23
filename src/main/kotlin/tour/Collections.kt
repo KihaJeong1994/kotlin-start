@@ -46,7 +46,7 @@ fun main() {
     println(readOnlyFruits) // duplicated cherry is dropped
 
     // casting is also available
-    val fruitLocked:Set<String> = fruits;
+    val fruitLocked:Set<String> = fruits
 
     // count()
     // in operator
@@ -77,14 +77,14 @@ fun main() {
     val accountBalances = mutableMapOf(1 to 100, 2 to 200, 3 to 1000)
 
     // casting is also available
-    val accountBalancesLocked:Map<Int,Int> = accountBalances;
+    val accountBalancesLocked:Map<Int,Int> = accountBalances
 
     // [] : indexed access operator
     println("The value of key 1 is ${readOnlyAccountBalances[1]}")
     println("This map has ${readOnlyAccountBalances.count()} of key-value pairs")
 
     // put(), remove()
-    accountBalances.put(4,400);
+    accountBalances.put(4,400)
     println(accountBalances)
     accountBalances.remove(4)
     println(accountBalances)
